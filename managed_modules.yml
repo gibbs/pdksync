@@ -2,5 +2,4 @@
 - puppet-osquery
 - puppet-auditd
 - puppet-login_defs
-- puppet-systemd_journal_remote
 - puppet-acct
