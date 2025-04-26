@@ -14,7 +14,7 @@ bundle exec rake git:clone_managed_modules
 Copy managed files
 
 ```
-find modules_pdksync -mindepth 1 -maxdepth 1 -type d -exec cp -v ./managed_files/.* {}/ \;
+find modules_pdksync -mindepth 1 -maxdepth 1 -type d -exec cp -r -v ./managed_files/.* {}/ \;
 ```
 
 Run commands
