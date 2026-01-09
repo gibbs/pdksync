@@ -7,7 +7,8 @@ export GITHUB_TOKEN=<token>
 Install and clone modules
 
 ```
-bundle install --path .bundle/gems/
+bundle config set path '.bundle/gems/'
+bundle install
 bundle exec rake git:clone_managed_modules
 ```
 
